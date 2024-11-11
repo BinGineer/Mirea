@@ -21,7 +21,6 @@ public class Sequence {
         while ((flag) & (i<4)){
             if (arr[i]<arr[i-1]){
                 flag = false;
-
             }
             i++;
         }
