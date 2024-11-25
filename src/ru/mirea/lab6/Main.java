@@ -7,5 +7,9 @@ public class Main {
         m.movedown();
         System.out.println(m.toString())
         ;
+        Movable r = new Rectangle(1,1,5,8,1,1);
+        r.movedown();
+        m.moveright();
+        System.out.println(r.toString());
     }
 }
